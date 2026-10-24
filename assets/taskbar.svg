@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 30" width="100%" height="30">
+  <defs>
+    <style>
+      .win-font { font-family: 'Segoe UI', Tahoma, 'MS Sans Serif', Geneva, Verdana, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Taskbar Base Gray -->
+  <rect x="0" y="0" width="850" height="30" fill="#c0c0c0"/>
+  <!-- Top White Highlight -->
+  <line x1="0" y1="0" x2="850" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+
+  <!-- Start Button -->
+  <g transform="translate(3, 3)">
+    <!-- Raised Bevel -->
+    <rect x="0" y="0" width="65" height="23" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="1" y1="1" x2="63" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="1" y1="1" x2="1" y2="21" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="1" y1="21" x2="64" y2="21" stroke="#808080" stroke-width="1.5"/>
+    <line x1="63" y1="1" x2="63" y2="22" stroke="#808080" stroke-width="1.5"/>
+
+    <!-- Windows 4-color flag -->
+    <g transform="translate(6, 6)">
+      <rect x="0" y="0" width="5" height="5" fill="#ff3333"/>
+      <rect x="6" y="0" width="5" height="5" fill="#33cc33"/>
+      <rect x="0" y="6" width="5" height="5" fill="#0066ff"/>
+      <rect x="6" y="6" width="5" height="5" fill="#ffcc00"/>
+    </g>
+    <!-- Start Text -->
+    <text x="23" y="16" fill="#000000" font-size="11" font-weight="bold" class="win-font">Start</text>
+  </g>
+
+  <!-- Vertical Divider Groove -->
+  <g transform="translate(73, 4)">
+    <line x1="0" y1="0" x2="0" y2="22" stroke="#808080" stroke-width="1"/>
+    <line x1="1" y1="0" x2="1" y2="22" stroke="#ffffff" stroke-width="1"/>
+    <line x1="3" y1="0" x2="3" y2="22" stroke="#808080" stroke-width="1"/>
+    <line x1="4" y1="0" x2="4" y2="22" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Task Button 1: README (Active / Pressed) -->
+  <g transform="translate(83, 3)">
+    <!-- Dotted texture background for active button -->
+    <rect x="0" y="0" width="145" height="23" fill="#dfdfdf" stroke="#808080" stroke-width="1"/>
+    <line x1="1" y1="1" x2="143" y2="1" stroke="#000000" stroke-width="1"/>
+    <line x1="1" y1="1" x2="1" y2="21" stroke="#000000" stroke-width="1"/>
+    <line x1="1" y1="22" x2="144" y2="22" stroke="#ffffff" stroke-width="1"/>
+    <line x1="144" y1="1" x2="144" y2="22" stroke="#ffffff" stroke-width="1"/>
+    <!-- Icon -->
+    <rect x="7" y="6" width="10" height="12" fill="#ffffff" stroke="#000000" stroke-width="0.7"/>
+    <rect x="7" y="6" width="10" height="2" fill="#000080"/>
+    <text x="22" y="16" fill="#000000" font-size="11" font-weight="bold" class="win-font">README.TXT</text>
+  </g>
+
+  <!-- Task Button 2: f(x) Studio (Raised) -->
+  <g transform="translate(233, 3)">
+    <rect x="0" y="0" width="150" height="23" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="1" x2="1" y2="21" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="21" x2="149" y2="21" stroke="#808080" stroke-width="1.2"/>
+    <line x1="148" y1="1" x2="148" y2="22" stroke="#808080" stroke-width="1.2"/>
+    <!-- Wireframe Icon -->
+    <polygon points="12,5 16,8 16,16 12,19 8,16 8,8" fill="#000080" stroke="#00ffff" stroke-width="0.8"/>
+    <text x="24" y="16" fill="#000000" font-size="11" class="win-font">f(x)_Studio.exe</text>
+  </g>
+
+  <!-- Task Button 3: JustQuizMe (Raised) -->
+  <g transform="translate(388, 3)">
+    <rect x="0" y="0" width="150" height="23" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="1" x2="1" y2="21" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="21" x2="149" y2="21" stroke="#808080" stroke-width="1.2"/>
+    <line x1="148" y1="1" x2="148" y2="22" stroke="#808080" stroke-width="1.2"/>
+    <!-- Chip Icon -->
+    <rect x="8" y="7" width="8" height="8" fill="#333333" stroke="#ffcc00" stroke-width="0.7"/>
+    <text x="24" y="16" fill="#000000" font-size="11" class="win-font">JustQuizMe.exe</text>
+  </g>
+
+  <!-- Task Button 4: When-R-U-Free (Raised) -->
+  <g transform="translate(543, 3)">
+    <rect x="0" y="0" width="150" height="23" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="1" x2="1" y2="21" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="1" y1="21" x2="149" y2="21" stroke="#808080" stroke-width="1.2"/>
+    <line x1="148" y1="1" x2="148" y2="22" stroke="#808080" stroke-width="1.2"/>
+    <!-- Calendar Icon -->
+    <rect x="8" y="6" width="9" height="10" fill="#ffffff" stroke="#ff3333" stroke-width="0.8"/>
+    <text x="24" y="16" fill="#000000" font-size="11" class="win-font">When-R-U-Free...</text>
+  </g>
+
+  <!-- System Tray (Right) -->
+  <g transform="translate(745, 3)">
+    <!-- Sunken Inset Bevel -->
+    <rect x="0" y="0" width="100" height="23" fill="#c0c0c0"/>
+    <line x1="0" y1="0" x2="99" y2="0" stroke="#808080" stroke-width="1.2"/>
+    <line x1="0" y1="0" x2="0" y2="22" stroke="#808080" stroke-width="1.2"/>
+    <line x1="0" y1="22" x2="100" y2="22" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="99" y1="0" x2="99" y2="23" stroke="#ffffff" stroke-width="1.2"/>
+
+    <!-- Speaker / Sound Icon -->
+    <g transform="translate(8, 6)">
+      <polygon points="1,4 4,4 7,1 7,9 4,6 1,6" fill="#000000"/>
+      <path d="M 8 3 Q 10 5 8 7" fill="none" stroke="#000000" stroke-width="0.8"/>
+    </g>
+
+    <!-- P2P Network Activity Icon -->
+    <g transform="translate(26, 6)">
+      <rect x="0" y="1" width="7" height="6" fill="#00ff00" stroke="#000000" stroke-width="0.6"/>
+      <rect x="5" y="4" width="7" height="6" fill="#00ff00" stroke="#000000" stroke-width="0.6"/>
+    </g>
+
+    <!-- Digital Clock -->
+    <text x="56" y="16" fill="#000000" font-size="11" font-weight="bold" class="win-font">20:15</text>
+  </g>
+</svg>

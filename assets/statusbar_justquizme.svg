@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 22" width="100%" height="22">
+  <defs>
+    <style>
+      .win-font { font-family: 'Segoe UI', Tahoma, 'MS Sans Serif', Geneva, Verdana, sans-serif; font-size: 11px; fill: #000000; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="850" height="22" fill="#c0c0c0"/>
+  <line x1="0" y1="0" x2="850" y2="0" stroke="#808080" stroke-width="1"/>
+  <line x1="0" y1="1" x2="850" y2="1" stroke="#ffffff" stroke-width="1"/>
+
+  <!-- Panel 1: LMC CPU online -->
+  <g transform="translate(4, 3)">
+    <rect x="0" y="0" width="350" height="16" fill="#c0c0c0"/>
+    <line x1="0" y1="0" x2="349" y2="0" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="15" x2="350" y2="15" stroke="#ffffff" stroke-width="1"/>
+    <line x1="349" y1="0" x2="349" y2="16" stroke="#ffffff" stroke-width="1"/>
+    <text x="8" y="12" class="win-font">LMC CPU: 100 Mailboxes Online</text>
+  </g>
+
+  <!-- Panel 2: CAS status -->
+  <g transform="translate(358, 3)">
+    <rect x="0" y="0" width="260" height="16" fill="#c0c0c0"/>
+    <line x1="0" y1="0" x2="259" y2="0" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="15" x2="260" y2="15" stroke="#ffffff" stroke-width="1"/>
+    <line x1="259" y1="0" x2="259" y2="16" stroke="#ffffff" stroke-width="1"/>
+    <text x="8" y="12" class="win-font">Symbolic CAS: Equivalence Verified</text>
+  </g>
+
+  <!-- Panel 3: Knapsack -->
+  <g transform="translate(622, 3)">
+    <rect x="0" y="0" width="206" height="16" fill="#c0c0c0"/>
+    <line x1="0" y1="0" x2="205" y2="0" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#808080" stroke-width="1"/>
+    <line x1="0" y1="15" x2="206" y2="15" stroke="#ffffff" stroke-width="1"/>
+    <line x1="205" y1="0" x2="205" y2="16" stroke="#ffffff" stroke-width="1"/>
+    <text x="8" y="12" class="win-font">Knapsack: 0/1 DP Optimal</text>
+  </g>
+
+  <!-- Gripper -->
+  <g transform="translate(834, 7)">
+    <line x1="10" y1="10" x2="12" y2="8" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="11" y1="11" x2="13" y2="9" stroke="#808080" stroke-width="1.2"/>
+    <line x1="6" y1="10" x2="12" y2="4" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="7" y1="11" x2="13" y2="5" stroke="#808080" stroke-width="1.2"/>
+    <line x1="2" y1="10" x2="12" y2="0" stroke="#ffffff" stroke-width="1.2"/>
+    <line x1="3" y1="11" x2="13" y2="1" stroke="#808080" stroke-width="1.2"/>
+  </g>
+</svg>

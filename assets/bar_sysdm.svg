@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 50" width="100%" height="50">
+  <defs>
+    <linearGradient id="win98Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000080"/>
+      <stop offset="100%" stop-color="#1084d0"/>
+    </linearGradient>
+    <style>
+      .win-font { font-family: 'Segoe UI', Tahoma, 'MS Sans Serif', Geneva, Verdana, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Outer Window Top Bevel -->
+  <rect x="0" y="0" width="850" height="50" fill="#c0c0c0"/>
+  <line x1="0" y1="0" x2="850" y2="0" stroke="#ffffff" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="50" stroke="#ffffff" stroke-width="2"/>
+  <line x1="849" y1="0" x2="849" y2="50" stroke="#808080" stroke-width="2"/>
+
+  <!-- Title Bar -->
+  <rect x="3" y="3" width="844" height="22" fill="url(#win98Grad)"/>
+  
+  <!-- System Properties Icon -->
+  <g transform="translate(8, 6)">
+    <rect x="1" y="2" width="14" height="11" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <rect x="3" y="4" width="10" height="7" fill="#000080"/>
+    <rect x="4" y="13" width="8" height="2" fill="#808080"/>
+  </g>
+
+  <!-- Title Text -->
+  <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="bold" class="win-font" letter-spacing="0.5">System Properties (sysdm.cpl) - vio's Workstation &amp; Engineering Specs</text>
+
+  <!-- Window Control Buttons (Min, Max, Close) -->
+  <g transform="translate(780, 6)">
+    <!-- Help Button (?) -->
+    <rect x="19" y="0" width="16" height="15" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="20" y1="1" x2="33" y2="1" stroke="#ffffff" stroke-width="1"/>
+    <line x1="20" y1="1" x2="20" y2="13" stroke="#ffffff" stroke-width="1"/>
+    <line x1="20" y1="14" x2="34" y2="14" stroke="#808080" stroke-width="1"/>
+    <line x1="33" y1="1" x2="33" y2="14" stroke="#808080" stroke-width="1"/>
+    <text x="25" y="11" fill="#000000" font-size="11" font-weight="bold" class="win-font">?</text>
+
+    <!-- Close Button -->
+    <rect x="38" y="0" width="16" height="15" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+    <line x1="39" y1="1" x2="52" y2="1" stroke="#ffffff" stroke-width="1"/>
+    <line x1="39" y1="1" x2="39" y2="13" stroke="#ffffff" stroke-width="1"/>
+    <line x1="39" y1="14" x2="53" y2="14" stroke="#808080" stroke-width="1"/>
+    <line x1="52" y1="1" x2="52" y2="14" stroke="#808080" stroke-width="1"/>
+    <path d="M 42 3 L 50 11 M 50 3 L 42 11" stroke="#000000" stroke-width="1.8"/>
+  </g>
+
+  <!-- Dialog Tabs Row (y=26 to 48) -->
+  <g transform="translate(10, 27)">
+    <!-- Active Tab: General -->
+    <path d="M 0 21 L 0 3 Q 0 0 3 0 L 85 0 Q 88 0 88 3 L 88 21" fill="#c0c0c0"/>
+    <line x1="0" y1="3" x2="0" y2="21" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="1" y1="1" x2="87" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="88" y1="3" x2="88" y2="21" stroke="#808080" stroke-width="1.5"/>
+    <text x="44" y="14" fill="#000000" font-size="11" font-weight="bold" text-anchor="middle" class="win-font">General</text>
+
+    <!-- Tab 2: Graphics & Shaders -->
+    <path d="M 92 21 L 92 5 Q 92 2 95 2 L 235 2 Q 238 2 238 5 L 238 21" fill="#c0c0c0"/>
+    <line x1="92" y1="5" x2="92" y2="21" stroke="#ffffff" stroke-width="1"/>
+    <line x1="93" y1="3" x2="237" y2="3" stroke="#ffffff" stroke-width="1"/>
+    <line x1="238" y1="5" x2="238" y2="21" stroke="#808080" stroke-width="1"/>
+    <text x="165" y="15" fill="#555555" font-size="11" text-anchor="middle" class="win-font">Graphics &amp; Shaders</text>
+
+    <!-- Tab 3: Local-First & Systems -->
+    <path d="M 242 21 L 242 5 Q 242 2 245 2 L 385 2 Q 388 2 388 5 L 388 21" fill="#c0c0c0"/>
+    <line x1="242" y1="5" x2="242" y2="21" stroke="#ffffff" stroke-width="1"/>
+    <line x1="243" y1="3" x2="387" y2="3" stroke="#ffffff" stroke-width="1"/>
+    <line x1="388" y1="5" x2="388" y2="21" stroke="#808080" stroke-width="1"/>
+    <text x="315" y="15" fill="#555555" font-size="11" text-anchor="middle" class="win-font">Local-First &amp; P2P</text>
+
+    <!-- Tab 4: STEM & Compilers -->
+    <path d="M 392 21 L 392 5 Q 392 2 395 2 L 530 2 Q 533 2 533 5 L 533 21" fill="#c0c0c0"/>
+    <line x1="392" y1="5" x2="392" y2="21" stroke="#ffffff" stroke-width="1"/>
+    <line x1="393" y1="3" x2="532" y2="3" stroke="#ffffff" stroke-width="1"/>
+    <line x1="533" y1="5" x2="533" y2="21" stroke="#808080" stroke-width="1"/>
+    <text x="462" y="15" fill="#555555" font-size="11" text-anchor="middle" class="win-font">Compilers &amp; Math</text>
+  </g>
+
+  <!-- Tab line -->
+  <line x1="2" y1="48" x2="10" y2="48" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="98" y1="48" x2="848" y2="48" stroke="#ffffff" stroke-width="1.5"/>
+</svg>

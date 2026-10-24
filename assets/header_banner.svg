@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 170" width="100%" height="170">
+  <defs>
+    <!-- Win98 Active Title Bar Gradient -->
+    <linearGradient id="win98Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000080"/>
+      <stop offset="100%" stop-color="#1084d0"/>
+    </linearGradient>
+    <style>
+      .win-font { font-family: 'Segoe UI', Tahoma, 'MS Sans Serif', Geneva, Verdana, sans-serif; }
+      .mono-font { font-family: 'Courier New', Courier, monospace; }
+      .btn-shadow { filter: drop-shadow(1px 1px 0px #000000); }
+    </style>
+  </defs>
+
+  <!-- Desktop Teal Background -->
+  <rect width="850" height="170" fill="#008080"/>
+
+  <!-- Desktop Grid Dotted Pattern (subtle retro feel) -->
+  <g opacity="0.15">
+    <pattern id="desktopDots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1" height="1" fill="#ffffff"/>
+      <rect x="8" y="8" width="1" height="1" fill="#000000"/>
+    </pattern>
+    <rect width="850" height="170" fill="url(#desktopDots)"/>
+  </g>
+
+  <!-- Desktop Icons (Left Column) -->
+  <!-- 1. vio's PC -->
+  <g transform="translate(18, 12)">
+    <rect x="10" y="2" width="22" height="16" fill="#c0c0c0" stroke="#000" stroke-width="1"/>
+    <rect x="13" y="5" width="16" height="10" fill="#000080"/>
+    <!-- Small purple V on screen -->
+    <path d="M 17 7 L 19 12 L 23 7" stroke="#a855f7" stroke-width="1.2" fill="none"/>
+    <rect x="18" y="19" width="6" height="3" fill="#808080"/>
+    <rect x="14" y="22" width="14" height="2" fill="#c0c0c0" stroke="#000" stroke-width="0.5"/>
+    <text x="21" y="34" fill="#ffffff" font-size="9" text-anchor="middle" class="win-font" font-weight="bold">vio's PC</text>
+  </g>
+
+  <!-- 2. Network Neighborhood -->
+  <g transform="translate(18, 56)">
+    <rect x="8" y="4" width="16" height="12" fill="#c0c0c0" stroke="#000" stroke-width="0.8"/>
+    <rect x="11" y="6" width="10" height="7" fill="#008080"/>
+    <rect x="18" y="10" width="16" height="12" fill="#ffffff" stroke="#000" stroke-width="0.8"/>
+    <rect x="21" y="12" width="10" height="7" fill="#000080"/>
+    <path d="M 12 24 L 30 24 M 16 18 L 16 24 M 26 22 L 26 24" stroke="#000" stroke-width="1"/>
+    <text x="21" y="34" fill="#ffffff" font-size="9" text-anchor="middle" class="win-font" font-weight="bold">Network P2P</text>
+  </g>
+
+  <!-- 3. Recycle Bin -->
+  <g transform="translate(18, 100)">
+    <path d="M 14 5 L 28 5 L 26 22 L 16 22 Z" fill="#c0c0c0" stroke="#000" stroke-width="1"/>
+    <line x1="12" y1="5" x2="30" y2="5" stroke="#000" stroke-width="1.5"/>
+    <path d="M 18 2 L 24 2 L 24 5 L 18 5 Z" fill="#808080" stroke="#000" stroke-width="0.8"/>
+    <line x1="18" y1="8" x2="18" y2="19" stroke="#808080" stroke-width="1"/>
+    <line x1="21" y1="8" x2="21" y2="19" stroke="#008080" stroke-width="1"/>
+    <line x1="24" y1="8" x2="24" y2="19" stroke="#808080" stroke-width="1"/>
+    <text x="21" y="33" fill="#ffffff" font-size="9" text-anchor="middle" class="win-font" font-weight="bold">Recycle Bin</text>
+  </g>
+
+  <!-- Main Welcome Dialog Window -->
+  <g transform="translate(105, 12)">
+    <!-- Outer Window Frame with 3D Bevel -->
+    <rect x="0" y="0" width="725" height="142" fill="#c0c0c0" stroke="#000000" stroke-width="1"/>
+    <line x1="1" y1="1" x2="724" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="1" y1="1" x2="1" y2="141" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="1" y1="140" x2="724" y2="140" stroke="#808080" stroke-width="1.5"/>
+    <line x1="723" y1="1" x2="723" y2="141" stroke="#808080" stroke-width="1.5"/>
+
+    <!-- Title Bar -->
+    <rect x="3" y="3" width="719" height="22" fill="url(#win98Grad)"/>
+    <!-- Windows 98 4-color icon -->
+    <g transform="translate(7, 5)">
+      <rect x="0" y="0" width="6" height="6" fill="#ff3333"/>
+      <rect x="8" y="0" width="6" height="6" fill="#33cc33"/>
+      <rect x="0" y="8" width="6" height="6" fill="#0066ff"/>
+      <rect x="8" y="8" width="6" height="6" fill="#ffcc00"/>
+    </g>
+    <text x="28" y="18" fill="#ffffff" font-size="12" font-weight="bold" class="win-font" letter-spacing="0.5">Welcome to vio's Workstation — Windows 98 [Developer Edition]</text>
+
+    <!-- Window Buttons: Minimize, Maximize, Close -->
+    <g transform="translate(655, 6)">
+      <!-- Min Button -->
+      <rect x="0" y="0" width="16" height="15" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+      <line x1="1" y1="1" x2="14" y2="1" stroke="#ffffff" stroke-width="1"/>
+      <line x1="1" y1="1" x2="1" y2="13" stroke="#ffffff" stroke-width="1"/>
+      <line x1="1" y1="14" x2="15" y2="14" stroke="#808080" stroke-width="1"/>
+      <line x1="14" y1="1" x2="14" y2="14" stroke="#808080" stroke-width="1"/>
+      <rect x="3" y="10" width="9" height="2" fill="#000000"/>
+
+      <!-- Max Button -->
+      <rect x="19" y="0" width="16" height="15" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+      <line x1="20" y1="1" x2="33" y2="1" stroke="#ffffff" stroke-width="1"/>
+      <line x1="20" y1="1" x2="20" y2="13" stroke="#ffffff" stroke-width="1"/>
+      <line x1="20" y1="14" x2="34" y2="14" stroke="#808080" stroke-width="1"/>
+      <line x1="33" y1="1" x2="33" y2="14" stroke="#808080" stroke-width="1"/>
+      <rect x="22" y="3" width="10" height="9" fill="none" stroke="#000000" stroke-width="1.5"/>
+      <rect x="22" y="3" width="10" height="2" fill="#000000"/>
+
+      <!-- Close Button -->
+      <rect x="38" y="0" width="16" height="15" fill="#c0c0c0" stroke="#000000" stroke-width="0.8"/>
+      <line x1="39" y1="1" x2="52" y2="1" stroke="#ffffff" stroke-width="1"/>
+      <line x1="39" y1="1" x2="39" y2="13" stroke="#ffffff" stroke-width="1"/>
+      <line x1="39" y1="14" x2="53" y2="14" stroke="#808080" stroke-width="1"/>
+      <line x1="52" y1="1" x2="52" y2="14" stroke="#808080" stroke-width="1"/>
+      <path d="M 42 3 L 50 11 M 50 3 L 42 11" stroke="#000000" stroke-width="1.8"/>
+    </g>
+
+    <!-- Dialog Body: Sunken Inner Box -->
+    <rect x="10" y="32" width="530" height="100" fill="#ffffff" stroke="#808080" stroke-width="1"/>
+    <line x1="11" y1="131" x2="539" y2="131" stroke="#ffffff" stroke-width="1"/>
+    <line x1="539" y1="33" x2="539" y2="131" stroke="#ffffff" stroke-width="1"/>
+
+    <!-- Big Retro Lightbulb / Tip of the day -->
+    <g transform="translate(24, 45)">
+      <circle cx="16" cy="14" r="11" fill="#fff475" stroke="#000000" stroke-width="1.2"/>
+      <path d="M 11 22 L 21 22 L 19 28 L 13 28 Z" fill="#c0c0c0" stroke="#000000" stroke-width="1"/>
+      <line x1="13" y1="25" x2="19" y2="25" stroke="#808080" stroke-width="1"/>
+      <line x1="16" y1="0" x2="16" y2="2" stroke="#ff9900" stroke-width="2"/>
+      <line x1="4" y1="6" x2="6" y2="8" stroke="#ff9900" stroke-width="2"/>
+      <line x1="26" y1="8" x2="28" y2="6" stroke="#ff9900" stroke-width="2"/>
+    </g>
+
+    <text x="70" y="52" fill="#000080" font-size="13" font-weight="bold" class="win-font">Tip of the Day: Deterministic Engineering</text>
+    <text x="70" y="70" fill="#333333" font-size="11" class="win-font">"Never let your state drift. Treat motion as a pure closed function <tspan font-weight="bold" fill="#000080">Frame = f(t)</tspan>,"</text>
+    <text x="70" y="86" fill="#333333" font-size="11" class="win-font">"run full CPU emulators in-browser, and keep user data offline &amp; P2P."</text>
+    
+    <g transform="translate(70, 102)">
+      <rect x="0" y="0" width="11" height="11" fill="#ffffff" stroke="#808080" stroke-width="1"/>
+      <path d="M 2 5 L 5 9 L 10 2" stroke="#000000" stroke-width="1.8" fill="none"/>
+      <text x="18" y="9" fill="#000000" font-size="10" class="win-font">Registered to: <tspan font-weight="bold">vio</tspan> (admin@penguinbtw.com)</text>
+    </g>
+
+    <!-- Action Buttons on the Right Side of Dialog -->
+    <g transform="translate(560, 34)">
+      <!-- Button 1: Flagship Projects -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="150" height="26" fill="#c0c0c0" stroke="#000000" stroke-width="1"/>
+        <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="1" x2="1" y2="24" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="24" x2="149" y2="24" stroke="#808080" stroke-width="1.5"/>
+        <line x1="148" y1="1" x2="148" y2="25" stroke="#808080" stroke-width="1.5"/>
+        <text x="75" y="17" fill="#000000" font-size="11" font-weight="bold" text-anchor="middle" class="win-font">🚀 Flagship Projects ▾</text>
+      </g>
+
+      <!-- Button 2: Hardware Specs -->
+      <g transform="translate(0, 33)">
+        <rect x="0" y="0" width="150" height="26" fill="#c0c0c0" stroke="#000000" stroke-width="1"/>
+        <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="1" x2="1" y2="24" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="24" x2="149" y2="24" stroke="#808080" stroke-width="1.5"/>
+        <line x1="148" y1="1" x2="148" y2="25" stroke="#808080" stroke-width="1.5"/>
+        <text x="75" y="17" fill="#000000" font-size="11" font-weight="bold" text-anchor="middle" class="win-font">⚙️ System Specs</text>
+      </g>
+
+      <!-- Button 3: Close / Proceed -->
+      <g transform="translate(0, 66)">
+        <rect x="0" y="0" width="150" height="26" fill="#c0c0c0" stroke="#000000" stroke-width="1"/>
+        <line x1="1" y1="1" x2="148" y2="1" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="1" x2="1" y2="24" stroke="#ffffff" stroke-width="1.5"/>
+        <line x1="1" y1="24" x2="149" y2="24" stroke="#808080" stroke-width="1.5"/>
+        <line x1="148" y1="1" x2="148" y2="25" stroke="#808080" stroke-width="1.5"/>
+        <rect x="3" y="3" width="144" height="20" fill="none" stroke="#000000" stroke-width="0.8" stroke-dasharray="1 1"/>
+        <text x="75" y="17" fill="#000000" font-size="11" font-weight="bold" text-anchor="middle" class="win-font">Enter vio's Profile [OK]</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
